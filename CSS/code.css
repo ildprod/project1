@@ -1,0 +1,250 @@
+body {
+    font-family: Montserrat;
+    padding: 0px;
+    margin: 0px;
+}
+.cfix {
+    content: '';
+    display: table;
+    width: 100%;
+    clear: both;
+}
+header {
+    background: url(../img/Group10.svg) no-repeat center top / cover;
+    height: 800px;
+}
+
+.container {
+    width: 1000px;
+    margin: 0px auto;
+}
+
+.logo {
+    margin-top: 30px;
+    float: left;
+}
+
+nav {
+    float: right;
+}
+
+.menu {
+    padding: 0px;
+    margin-top: 30px;
+    display: block;
+}
+
+.menu li {
+    float: left;
+    display: block;
+    margin-right: 40px;
+}
+
+.menu li a {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 92.9%;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.titles {
+    margin-top: 150px;
+}
+
+/* Основные блоки */
+
+.zag {
+   
+font-style: italic;
+font-weight: 800;
+font-size: 72px;
+line-height: 99.9%;
+margin-top: 20px;
+margin-bottom: 60px;
+/* or 72px */
+
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+}
+
+.podzag {
+    
+font-style: italic;
+font-weight: 300;
+font-size: 48px;
+line-height: 92.9%;
+margin: 0;
+/* or 45px */
+
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+
+}
+.text {
+  
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+
+opacity: 0.77;
+}
+
+.links {
+
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 92.9%;
+text-decoration: none;
+/* or 19px */
+
+letter-spacing: 0.02em;
+
+color: #FF8947;
+
+}
+.button {
+    background: linear-gradient(255.92deg, #FF8947 0%, #FFB673 94.35%);
+    border-radius: 102px;
+    display: block;
+    width: 240px;
+    padding: 20px 0;
+    margin-top: 60px;
+
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 92.9%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #AF3900;
+}
+
+.button:hover {
+    background: linear-gradient(255.92deg, #FF8947 0%, #FFB673 94.35%);
+    border-radius: 102px;
+    display: block;
+    width: 240px;
+    padding: 20px 0;
+    margin-top: 60px;
+
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 92.9%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: white;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all 0.3s ease;
+}
+
+.button2 {
+    background: none;
+    border: 2px solid #FF8947;
+    border-radius: 102px;
+    padding: 18px 78px;
+    margin-top: 90px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 92.9%;
+    color: white;
+    text-decoration: none;
+}
+
+.button2:hover {
+    background: linear-gradient(255.92deg, #FF8947 0%, #FFB673 94.35%);    ;
+    border: 2px solid #FF8947;
+    border-radius: 102px;
+    padding: 18px 78px;
+    margin-top: 90px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 92.9%;
+    color: white;
+    text-decoration: none;
+    -webkit-transition: all 0.8s ease;;
+    -moz-transition: all 0.8s ease;;
+    -o-transition: all 0.8s ease;;
+    transition: all 0.8s ease;
+}
+
+div.left {
+    float: left;
+    padding: 8px;
+    height: 200px;
+    
+}
+
+div.right {
+    float: right;
+    margin-bottom: 990px;
+}
+
+div.imagebox {
+    width: 440px;
+    height: 440px;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.space {
+    margin-top: 140px;
+    margin-bottom: 60px;
+}
+
+.txtbox {
+    width: 400px;
+    display: block;
+}
+
+h2 {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 92.9%;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.s1 {
+    height: 800px;
+    background: url(../img/Group6.svg) no-repeat center top / cover;
+    
+}
+
+.imgsize {
+    width: 180px;
+    border: 0px solid #FF8947;
+    border-radius: 12px;
+}
+
+.imgsize:hover {
+    width: 176px;
+    border: 2px solid #FF8947;
+    border-radius: 12px;
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all 0.3s ease;
+}
